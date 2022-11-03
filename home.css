@@ -276,6 +276,7 @@
 }
 .home-text20 {
   color: var(--dl-color-template-gray-bg);
+  width: 80%;
   font-size: 44px;
   font-style: normal;
   text-align: center;
@@ -452,6 +453,8 @@
   width: 100%;
   z-index: 100;
   object-fit: cover;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
   border-radius: 24px;
 }
 .home-text40 {
