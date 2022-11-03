@@ -35,6 +35,7 @@
   --dl-color-template-gray-bg: #eff0f2ff;
   --dl-space-space-sevenunits: 112px;
   --dl-space-space-threeunits: 48px;
+  --dl-color-template-text-accent: #f5b8a8ff;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
@@ -203,6 +204,15 @@
   -khtml-user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
+}
+.fading-away {
+  left: x;
+  width: calc(60%);
+  border: unset !important;
+  height: 100%;
+  z-index: 102;
+  position: absolute;
+  box-shadow: inset 0 0 100px 25px #5632e4;
 }
 .content {
   font-size: 16px;
